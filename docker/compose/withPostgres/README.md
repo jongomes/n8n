@@ -12,7 +12,7 @@ command in the current folder.
 **IMPORTANT:** But before you do that change the default users and passwords in the [`.env`](.env) file!
 
 ```
-docker-compose up -d
+COMPOSE_HTTP_TIMEOUT=200 docker-compose up -d
 ```
 
 To stop it execute:
